@@ -9,7 +9,7 @@ const Projects = () => {
           <h1 className="text-xl font-semibold">My Work</h1>
           <GoArrowUpRight size={25} />
               </div>
-              <div className="img w-[92%] h-56 bg-gray-300 mx-auto rounded-xl">
+              <div className="img w-[92%] h-52 bg-gray-300 mx-auto rounded-xl">
                   <img src="/project.jpg" className="w-full h-full object-cover rounded-xl" alt="" />
               </div>
               <div className="hr w-[93%] h-[1px] bg-black mx-auto mt-10 mb-7"></div>
