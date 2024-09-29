@@ -3,7 +3,7 @@ import React from 'react'
 const Profile = () => {
   return (
     <>
-      <div className="w-[95%] mx-auto h-[500px] bg-white mt-5 rounded-lg ">
+      <div className="w-[95%] lg:w-[50%] lg:h-full md:w-full mx-auto h-[500px] bg-white mt-5 rounded-lg">
         <img
           src="/profile.jpg"
           className="w-full h-full object-cover filter grayscale rounded-lg"
