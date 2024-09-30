@@ -43,18 +43,18 @@ const App = () => {
       {/* For Desktop Devices  */}
       <div className="hidden lg:flex lg:flex-col w-full overflow-hidden h-[100vh] bg-zinc-900  border-zinc-900">
         <Navbar />
-        <div className="flex gap-2 w-[95%] mx-auto h-[85vh] border">
+        <div className="flex gap-2 w-[95%] mx-auto h-[90vh]">
           <div className="left w-[65%] h-full gap-5 flex flex-col">
             <div className="top w-full items-center h-[55%] flex gap-3">
               <Intro />
               <Profile />
             </div>
-            <div className="top w-full h-[45%] items-center flex gap-3">
+            <div className="top w-full h-[45%] items-center flex gap-3 xl:pb-0 lg:pb-5">
               <About />
               <Contact />
             </div>
           </div>
-          <div className="right w-[35%] h-full flex flex-col justify-between">
+          <div className="right w-[35%] h-full flex flex-col justify-between gap-3">
             <Projects />
             <Links />
           </div>
