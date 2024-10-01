@@ -55,7 +55,7 @@ const App = () => {
                 <Contact />
               </div>
             </div>
-            <div className="right w-[30%] h-full flex flex-col gap-2">
+            <div className="right w-[30%] h-full flex flex-col gap-2 justify-between">
               <Projects />
               <Links />
             </div>
