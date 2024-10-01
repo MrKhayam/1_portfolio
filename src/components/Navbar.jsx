@@ -8,7 +8,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="w-[95%] lg:h-[9%] h-14 lg:w-full mt-2 flex items-center justify-between px-5 lg:px-12 bg-[#edd8b7] rounded-lg mx-auto">
+      <div className="w-[95%] lg:h-[9%] lg:mt-0 h-14 lg:w-full mt-2 flex items-center justify-between px-5 lg:px-12 bg-[#edd8b7] rounded-lg mx-auto">
         <div className="logo md:font-semibold md:text-lg lg:text-2xl text-lg font-semibold">
           <h1>NK Folios</h1>
         </div>
