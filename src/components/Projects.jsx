@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const Projects = () => {
   return (
     <>
-      <div className="w-[95%] lg:w-full md:h-[650px] xl:h-[750px] lg:mt-3 md:w-1/2 font-['Poppins'] h-[600px] mx-auto rounded-lg mt-5 bg-[#edd8b7] flex flex-col gap-1">
+      <div className="w-[95%] lg:w-full lg:mt-0 md:h-[650px] xl:h-[750px] md:w-1/2 font-['Poppins'] h-[600px] mx-auto rounded-lg mt-5 bg-[#edd8b7] flex flex-col gap-1">
         <div className="head w-full p-5 flex justify-between">
           <h1 className="text-xl font-semibold">My Work</h1>
           <GoArrowUpRight size={25} />

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="w-[95%] lg:w-[45%] lg:h-full md:w-full h-[300px] mx-auto rounded-lg mt-5 md:mt-0 bg-[#edd8b7] flex flex-col gap-1">
+      <div className="w-[95%] lg:mt-0 lg:w-[45%] lg:h-full md:w-full h-[300px] mx-auto rounded-lg mt-5 md:mt-0 bg-[#edd8b7] flex flex-col gap-1">
         <div className="w-full h-[20%] rounded-lg flex justify-start">
           <img
             className="bg-transparent h-full rounded-lg opacity-[0.5] mt-4 ml-4"
