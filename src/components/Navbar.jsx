@@ -20,9 +20,6 @@ const Navbar = () => {
             Home
           </li>
           <li className="text-md font-semibold cursor-pointer lg:text-lg">
-            About
-          </li>
-          <li className="text-md font-semibold cursor-pointer lg:text-lg">
             Portfolio
           </li>
           <li className="text-md font-semibold cursor-pointer lg:text-lg">
@@ -36,7 +33,6 @@ const Navbar = () => {
         >
           <ul className="flex flex-col w-full h-full px-4 gap-3 ">
             <li className="text-white text-xl cursor-pointer">Home</li>
-            <li className="text-white text-xl cursor-pointer">About</li>
             <li className="text-white text-xl cursor-pointer">Portfolio</li>
             <li className="text-white text-xl cursor-pointer">Contact</li>
           </ul>

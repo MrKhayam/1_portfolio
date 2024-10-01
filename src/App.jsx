@@ -42,7 +42,7 @@ const App = () => {
 
       {/* For Desktop Devices  */}
       <div className="hidden lg:flex lg:flex-col w-full overflow-hidden h-[100vh] bg-zinc-900 items-center justify-center border-zinc-900">
-        <div className="w-[95%] h-[95%] flex flex-col gap-2">
+        <div className="w-[95%] h-[95%] flex flex-col gap-2 overflow-visible">
           <Navbar />
           <div className="w-full h-[91%] flex gap-2">
             <div className="left w-[70%] h-full flex flex-col gap-2">
